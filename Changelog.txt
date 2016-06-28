@@ -48,8 +48,8 @@ CapsuleComponent→Shape→Capsule Half Height の値を見る。
 あるので, 修正する必要がある。
 
 参考ビデオ :: WTF Is? Volume - Level Streaming in Unreal Engine 4
-参考サイト :: http://historia.co.jp/archives/4153
-			  https://docs.unrealengine.com/latest/JPN/Engine/LevelStreaming/WorldBrowser/index.html
+参考サイト :: 	http://historia.co.jp/archives/4153
+				https://docs.unrealengine.com/latest/JPN/Engine/LevelStreaming/WorldBrowser/index.html
 
 レベル遷移で, 遷移した後に, 2Dカメラに切り替えると, 黒画面になってしまうため
 ThirdPerosonCaracter→イベントグラフ→2D&3D(背後＆前)カメラの切り替え
@@ -80,6 +80,9 @@ Load Level Stream に切り替えた。
 
 2D マップと 3D マップで高低差があるところに
 足場をつくり, Character が落ちないようにする必要がある。
+
+参考サイト :	http://unrealengine.hatenablog.com/entry/2014/08/28/203638
+				http://unrealengine.hatenablog.com/entry/2015/08/24/220000
 
 記述日 : 2016年06月29日(水) 午前7時48分
 ------------------------------------------------------------------------------
