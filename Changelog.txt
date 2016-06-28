@@ -57,3 +57,29 @@ ThirdPerosonCaracter→イベントグラフ→2D&3D(背後＆前)カメラの�
 
 記述日 : 2016年06月28日(火) 午前4時49分
 ------------------------------------------------------------------------------
+README.md に, 追記した。
+Markdown記法参考 URL :: http://kojika17.com/2013/01/starting-markdown.html
+アニメーションスターターパックを追加した
+URL :: "https://unrealengine.com/marketplace/animation-starter-pack
+
+TestStage レベルブループリント→FPS制限&FPS表示を追加。
+ThirdPersonCractorブループリント→レベル入れ替え&3D座標位置維持を追加
+ThirdPersonCractorブループリント→3D画面から2D画面に遷移したときに, Y軸を固定し常に前を向いた状態にする
+ThirdPersonCractorブループリント→2D&3D(背後＆前)カメラの切り替え カメラ設定などフローを改変。
+ThirdPersonCractorビューポート→2DCamera Projection Mode を Perspective に変更。
+
+Level Steraming Volume を廃止し, ブループリント制御の
+Load Level Stream に切り替えた。
+
+問題点
+
+3D で行ける, 通路のところで, 2D に切り替えると
+2D マップの高低差で Character が落ちる。
+
+改善方法
+
+2D マップと 3D マップで高低差があるところに
+足場をつくり, Character が落ちないようにする必要がある。
+
+記述日 : 2016年06月29日(水) 午前7時48分
+------------------------------------------------------------------------------
