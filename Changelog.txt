@@ -48,7 +48,7 @@ CapsuleComponent→Shape→Capsule Half Height の値を見る。
 あるので, 修正する必要がある。
 
 参考ビデオ :: WTF Is? Volume - Level Streaming in Unreal Engine 4
-参考サイト :: 	http://historia.co.jp/archives/4153
+参考サイト ::	http://historia.co.jp/archives/4153
 				https://docs.unrealengine.com/latest/JPN/Engine/LevelStreaming/WorldBrowser/index.html
 
 レベル遷移で, 遷移した後に, 2Dカメラに切り替えると, 黒画面になってしまうため
@@ -64,12 +64,18 @@ URL :: "https://unrealengine.com/marketplace/animation-starter-pack
 
 TestStage レベルブループリント→FPS制限&FPS表示を追加。
 ThirdPersonCractorブループリント→レベル入れ替え&3D座標位置維持を追加
-ThirdPersonCractorブループリント→3D画面から2D画面に遷移したときに, Y軸を固定し常に前を向いた状態にする
+ThirdPersonCractorブループリント→3D画面から2D画面に遷移したときに, Y軸を固定し常に前を向いた状態にするを追加
 ThirdPersonCractorブループリント→2D&3D(背後＆前)カメラの切り替え カメラ設定などフローを改変。
 ThirdPersonCractorビューポート→2DCamera Projection Mode を Perspective に変更。
 
+※ → 以降にあるのは, そのレベルに存在するコメント文を意味しますので, 確認する際は,
+	コメント文を見て, 該当の箇所を探して下さい。
+
 Level Steraming Volume を廃止し, ブループリント制御の
 Load Level Stream に切り替えた。
+
+パーシスタントレベル内の隠しアイテムの位置が分かりやすいように
+StarterContent の P_Sparks を 配置した。
 
 問題点
 
@@ -82,7 +88,30 @@ Load Level Stream に切り替えた。
 足場をつくり, Character が落ちないようにする必要がある。
 
 参考サイト :	http://unrealengine.hatenablog.com/entry/2014/08/28/203638
-				http://unrealengine.hatenablog.com/entry/2015/08/24/220000
+			http://unrealengine.hatenablog.com/entry/2015/08/24/220000
 
-記述日 : 2016年06月29日(水) 午前7時48分
+※ P キーで, 2D と 3D を切り替えるように変更しました。注意して下さい。
+
+記述日 : 2016年06月29日(水) 午前10時39分
+------------------------------------------------------------------------------
+ThirdPersonCractorブループリント→3D画面での正面カメラに切り替えたときの移動キーを逆にする。
+	2D Camera IsActive ノードを削除し, 
+	ThirdPersonCractorブループリント→2Dカメラの時の左右移動処理 を追加した。
+ThirdPersonCractorビューポート→2DCamera カメラの位置 Y 軸を 500 にし
+	Player を見やすくした。
+
+※ → 以降にあるのは, そのレベルに存在するコメント文を意味しますので, 確認する際は,
+	コメント文を見て, 該当の箇所を探して下さい。
+
+問題点
+
+3D で行ける, 通路のところで, 2D に切り替えると
+2D マップの高低差で Character が落ちる。
+
+改善方法
+
+2D マップと 3D マップで高低差があるところに
+足場をつくり, Character が落ちないようにする必要がある。
+
+記述日 : 2016年06月29日(水) 午後2時51分
 ------------------------------------------------------------------------------
