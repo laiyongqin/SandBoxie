@@ -7,9 +7,9 @@
 	- データを確認することが可能です。
 	- Unreal Engine 4.10 ProgramFiles
 	- URL :: [Unreal Client](https://accounts.unrealengine.com/register/index?response_type=code&state=%2Fdownload%3Fdismiss%3Dhttps%253A%252F%252Fwww.unrealengine.com%252Fja%252Fwhat-is-unreal-engine-4&client_id=43e2dea89b054198a703f6199bee6d5b)
-	- Clone or download ボタンを押して, zip 書庫で DL 可能。
+	- DL には, アカウント登録が必要になってきます。
 
-##このページの URL :: __(https://github.com/proen/SandBoxie)__
+##このページの URL :: __[プロジェクト演習Ⅲ ゲームプロジェクト](https://github.com/proen/SandBoxie)__
 ##現在, プログラマー 3 人でバージョン管理しています。
 
 #使用環境
