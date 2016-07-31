@@ -296,7 +296,10 @@ http://pocketstudio.isa-geek.org/archives/755/ue4-%E3%82%92%E3%82%A2%E3%83%8B%E3
 
 #### 記述者 : 牛山 拓成, 記述日 : 平成28年7月29日(金) 午後1時57分
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 358ef9081133ca9bff461fdd4c7be54537990050
 ***
 * 追加内容
 	- TutorialMap の 2DMap 1 ～ 3 に, ジャンプマップ, 2D 3D Map, 3D 2D Map をそれぞれ分けて置いた。
@@ -329,5 +332,8 @@ http://pocketstudio.isa-geek.org/archives/755/ue4-%E3%82%92%E3%82%A2%E3%83%8B%E3
 	- [メッシュ形状をそのままコリジョン化する](http://unrealengine.hatenablog.com/entry/2016/05/05/213000)
 
 #### 記述者 : 牛山 拓成, 記述日 : 平成28年7月31日(日) 午前10時15分
+<<<<<<< HEAD
 >>>>>>> 統合ブランチ
+=======
+>>>>>>> 358ef9081133ca9bff461fdd4c7be54537990050
 ***
