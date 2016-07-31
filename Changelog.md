@@ -313,3 +313,18 @@ http://pocketstudio.isa-geek.org/archives/755/ue4-%E3%82%92%E3%82%A2%E3%83%8B%E3
 
 記述日 : 2016年07月12日(火) 午前09時53分
 >>>>>>> tutorialmap(加工前)の2DのMAP構成が完成したので確認お願いします:Changelog.txt
+***
+* 追加内容
+	- パーシスタントレベルに, ブロック　白_改を1つ, PlayerStart を配置しました。
+		スタティックメッシュエディターを開いて、スタティックメッシュのプロパティを変更するだけです。
+		スタティックメッシュ設定の"Collision Complexity"を"Default"から"Use Complex Collision As Simple"に変更します。
+		を処理しました。
+
+* bugfix
+	- _TutorialMap の 2DMap 1 ～ 3 に, ジャンプマップ, 2D 3D Map, 3D 2D Map をそれぞれ分けて置いた。レベルをプレイして, コリジョンがあるかどうかの確認をしたが, 無いため, プレイヤーが落ちてしまう。_
+
+* 参考サイト
+	- [メッシュ形状をそのままコリジョン化する](http://unrealengine.hatenablog.com/entry/2016/05/05/213000)
+
+#### 記述者 : 牛山 拓成, 記述日 : 平成28年7月31日(日) 午前10時15分
+***
