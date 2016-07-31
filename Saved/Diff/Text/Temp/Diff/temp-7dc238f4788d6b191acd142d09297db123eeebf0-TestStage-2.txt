@@ -1,0 +1,136 @@
+Begin Object Class=Package Name="/Temp/Diff/temp-7dc238f4788d6b191acd142d09297db123eeebf0-TestStage"
+   Begin Object Class=ShadowMapTexture2D Name="ShadowMapTexture2D_4"
+      Begin Object Class=AssetImportData Name="AssetImportData"
+      End Object
+   End Object
+   Begin Object Class=LightMapTexture2D Name="LQ_Lightmap_0_4"
+      Begin Object Class=AssetImportData Name="AssetImportData"
+      End Object
+   End Object
+   Begin Object Class=LightMapTexture2D Name="HQ_Lightmap0_4"
+      Begin Object Class=AssetImportData Name="AssetImportData"
+      End Object
+   End Object
+   Begin Object Class=LinkerPlaceholderClass Name="PLACEHOLDER-CLASS__ThirdPersonCharacter_C_6"
+   End Object
+   Begin Object Class=LinkerPlaceholderClass Name="PLACEHOLDER-CLASS__Widget_BP_C_5"
+   End Object
+   Begin Map
+      Begin Level
+      End Level
+   Begin Surface
+   End Surface
+   End Map
+   Begin Object Class=BlueprintGeneratedClass Name="TestStage_C"
+      Begin Object Class=Function Name="ReceiveBeginPlay"
+      End Object
+      Begin Object Class=Function Name="BndEvt__TB_HiddenItems01_K2Node_ActorBoundEvent_43_ActorBeginOverlapSignature__DelegateSignature"
+         Begin Object Class=ObjectProperty Name="OtherActor"
+         End Object
+      End Object
+      Begin Object Class=Function Name="BndEvt__TB_HiddenItems01_K2Node_ActorBoundEvent_46_ActorEndOverlapSignature__DelegateSignature"
+         Begin Object Class=ObjectProperty Name="OtherActor"
+         End Object
+      End Object
+      Begin Object Class=Function Name="ExecuteUbergraph_TestStage"
+         Begin Object Class=BoolProperty Name="K2Node_DynamicCast_bSuccess2"
+         End Object
+         Begin Object Class=ObjectProperty Name="K2Node_DynamicCast_AsThird_Person_Character2"
+         End Object
+         Begin Object Class=BoolProperty Name="K2Node_DynamicCast_bSuccess"
+         End Object
+         Begin Object Class=ObjectProperty Name="K2Node_DynamicCast_AsThird_Person_Character"
+         End Object
+         Begin Object Class=ObjectProperty Name="K2Node_ActorBoundEvent_OtherActor"
+         End Object
+         Begin Object Class=ObjectProperty Name="K2Node_ActorBoundEvent_OtherActor2"
+         End Object
+         Begin Object Class=ObjectProperty Name="CallFunc_Create_ReturnValue"
+         End Object
+         Begin Object Class=IntProperty Name="EntryPoint"
+         End Object
+      End Object
+      Begin Object Class=StructProperty Name="UberGraphFrame"
+      End Object
+   End Object
+   Begin Object Class=MetaData Name="PackageMetaData"
+   End Object
+   Begin Object Name="ShadowMapTexture2D_4"
+      Begin Object Name="AssetImportData"
+      End Object
+      ShadowmapFlags=SMF_Streamed
+      ImportedSize=(X=512,Y=256)
+      Source=(Id=A764B2824E5FC68CED691EABAA5F6F3C,SizeX=512,SizeY=256,NumSlices=1,NumMips=10,Format=TSF_BGRA8)
+      AssetImportData=AssetImportData'AssetImportData'
+      CompressionNone=True
+      MipGenSettings=TMGS_LeaveExistingMips
+      SRGB=False
+   End Object
+   Begin Object Name="LQ_Lightmap_0_4"
+      Begin Object Name="AssetImportData"
+      End Object
+      ImportedSize=(X=512,Y=512)
+      Source=(Id=7B44D5DB4C39223C1DD51D8FB0EC4166,SizeX=512,SizeY=512,NumSlices=1,NumMips=10,Format=TSF_BGRA8)
+      AssetImportData=AssetImportData'AssetImportData'
+      CompressionNoAlpha=True
+      bForcePVRTC4=True
+      MipGenSettings=TMGS_LeaveExistingMips
+      SRGB=False
+   End Object
+   Begin Object Name="HQ_Lightmap0_4"
+      Begin Object Name="AssetImportData"
+      End Object
+      ImportedSize=(X=512,Y=512)
+      Source=(Id=D14BF433472B067B9936EB88B10F59B1,SizeX=512,SizeY=512,NumSlices=1,NumMips=10,Format=TSF_BGRA8)
+      AssetImportData=AssetImportData'AssetImportData'
+      bForcePVRTC4=True
+      MipGenSettings=TMGS_LeaveExistingMips
+      SRGB=False
+   End Object
+   Begin Object Name="PLACEHOLDER-CLASS__ThirdPersonCharacter_C_6"
+   End Object
+   Begin Object Name="PLACEHOLDER-CLASS__Widget_BP_C_5"
+   End Object
+   Begin Map
+      Begin Level
+      End Level
+   Begin Surface
+   End Surface
+   End Map
+   Begin Object Name="TestStage_C"
+      Begin Object Name="ReceiveBeginPlay"
+      End Object
+      Begin Object Name="BndEvt__TB_HiddenItems01_K2Node_ActorBoundEvent_43_ActorBeginOverlapSignature__DelegateSignature"
+         Begin Object Name="OtherActor"
+         End Object
+      End Object
+      Begin Object Name="BndEvt__TB_HiddenItems01_K2Node_ActorBoundEvent_46_ActorEndOverlapSignature__DelegateSignature"
+         Begin Object Name="OtherActor"
+         End Object
+      End Object
+      Begin Object Name="ExecuteUbergraph_TestStage"
+         Begin Object Name="K2Node_DynamicCast_bSuccess2"
+         End Object
+         Begin Object Name="K2Node_DynamicCast_AsThird_Person_Character2"
+         End Object
+         Begin Object Name="K2Node_DynamicCast_bSuccess"
+         End Object
+         Begin Object Name="K2Node_DynamicCast_AsThird_Person_Character"
+         End Object
+         Begin Object Name="K2Node_ActorBoundEvent_OtherActor"
+         End Object
+         Begin Object Name="K2Node_ActorBoundEvent_OtherActor2"
+         End Object
+         Begin Object Name="CallFunc_Create_ReturnValue"
+         End Object
+         Begin Object Name="EntryPoint"
+         End Object
+      End Object
+      Begin Object Name="UberGraphFrame"
+      End Object
+      UberGraphFramePointerProperty=StructProperty'UberGraphFrame'
+      UberGraphFunction=Function'ExecuteUbergraph_TestStage'
+   End Object
+   Begin Object Name="PackageMetaData"
+   End Object
+End Object
