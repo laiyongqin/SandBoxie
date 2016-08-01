@@ -12,6 +12,10 @@ rem del /s *.txt
 del /s *.ddp
 del /s *.bin
 del /s *.sdf
+del /s EditorPerProjectUserSettings.ini
+del /s Engine.ini
+del /s CachedAssetRegistry.bin
+del /s Editor.ini
 
 rem 参考サイト http://tooljp.com/bat_qa/4B0ADEC0831C7D5F49257E4F000E1F58.html
 rem 現在のディレクトリ配下の指定フォルダ削除するコマンド
@@ -26,3 +30,4 @@ for /R %%d in (.vs) do rmdir /S /Q "%%d"
 for /R %%d in (Binaries) do rmdir /S /Q "%%d"
 for /R %%d in (obj) do rmdir /S /Q "%%d"
 for /R %%d in (HardwareSurvey) do rmdir /S /Q "%%d"
+for /R %%d in (ReimportCache) do rmdir /S /Q "%%d"
