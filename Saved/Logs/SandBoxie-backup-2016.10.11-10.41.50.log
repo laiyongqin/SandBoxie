@@ -1,0 +1,1282 @@
+﻿[2016.10.04-02.46.28:243][  0]Log file open, 10/04/16 11:46:28
+[2016.10.04-02.46.28:243][  0]LogInit:Display: Running engine for game: SandBoxie
+[2016.10.04-02.46.28:243][  0]LogPlatformFile: Not using cached read wrapper
+[2016.10.04-02.46.28:243][  0]LogInit:Display: RandInit(1929113739) SRandInit(1929113743).
+[2016.10.04-02.46.28:243][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2016.10.04-02.46.28:243][  0]LogStats: Stats thread started at 0.180126
+[2016.10.04-02.46.28:243][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.10.04-02.46.28:243][  0]LogInit: API Version: 2758231
+[2016.10.04-02.46.28:243][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.10.04-02.46.28:243][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.10.04-02.46.28:243][  0]LogInit: Build Configuration: Development
+[2016.10.04-02.46.28:243][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.10.04-02.46.28:243][  0]LogInit: Command line:  
+[2016.10.04-02.46.28:243][  0]LogInit: Base directory: c:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.10.04-02.46.28:243][  0]LogInit: Rocket: 1
+[2016.10.04-02.46.28:276][  0]LogInit: Using libcurl 7.41.0
+[2016.10.04-02.46.28:276][  0]LogInit:  - built for x86_64-pc-win32
+[2016.10.04-02.46.28:276][  0]LogInit:  - supports SSL with WinSSL
+[2016.10.04-02.46.28:276][  0]LogInit:  - other features:
+[2016.10.04-02.46.28:276][  0]LogInit:      CURL_VERSION_SSL
+[2016.10.04-02.46.28:276][  0]LogInit:      CURL_VERSION_IPV6
+[2016.10.04-02.46.28:276][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.10.04-02.46.28:276][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.10.04-02.46.28:276][  0]LogInit:      CURL_VERSION_IDN
+[2016.10.04-02.46.28:277][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.10.04-02.46.28:277][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.10.04-02.46.28:277][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.10.04-02.46.28:277][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.10.04-02.46.28:277][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.10.04-02.46.28:314][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.10.04-02.46.28:344][  0]LogInit: Object subsystem initialized
+[2016.10.04-02.46.28:347][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.04-02.46.28:347][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.10.04-02.46.28:395][  0]LogInit: Computer: YASAKAT
+[2016.10.04-02.46.28:395][  0]LogInit: User: 祐史
+[2016.10.04-02.46.28:395][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.10.04-02.46.28:395][  0]LogInit: High frequency timer resolution =2.240908 MHz
+[2016.10.04-02.46.28:395][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.10.04-02.46.28:395][  0]LogMemory: Platform Memory Stats for Windows
+[2016.10.04-02.46.28:395][  0]LogMemory: Process Physical Memory: 58.24 MB used, 58.24 MB peak
+[2016.10.04-02.46.28:395][  0]LogMemory: Process Virtual Memory: 55.73 MB used, 55.73 MB peak
+[2016.10.04-02.46.28:395][  0]LogMemory: Physical Memory: 3656.70 MB used, 8104.02 MB total
+[2016.10.04-02.46.28:395][  0]LogMemory: Virtual Memory: 384.43 MB used, 134217728.00 MB total
+[2016.10.04-02.46.28:497][  0]LogTextLocalizationManager: No specific translations for ('ja-JP') exist, so ('ja') translations will be used.
+[2016.10.04-02.46.28:834][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:K2Node, Key:false):
+Localization Resource: (c:/Program Files/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (816077464) Localized String: (偽)
+Localization Resource: (c:/Program Files/Epic Games/4.10/Engine/Content/Localization/Engine/ja/Engine.locres) Source String Hash: (816077464) Localized String: (false)
+[2016.10.04-02.46.28:834][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:K2Node, Key:true):
+Localization Resource: (c:/Program Files/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (-942328987) Localized String: (真)
+Localization Resource: (c:/Program Files/Epic Games/4.10/Engine/Content/Localization/Engine/ja/Engine.locres) Source String Hash: (-942328987) Localized String: (true)
+[2016.10.04-02.46.28:835][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:bLoop):
+Localization Resource: (c:/Program Files/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (2133979316) Localized String: (再生が最後まで終わった後、ロープ再生するようにしますか？)
+Localization Resource: (c:/Program Files/Epic Games/4.10/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (2133979316) Localized String: (ループが最後まで到達した時に、アニメーションのループを継続するべきか？)
+[2016.10.04-02.46.28:835][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:X):
+Localization Resource: (c:/Program Files/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (2060772590) Localized String: (ブレンドスペースで値を取得するX座標)
+Localization Resource: (c:/Program Files/Epic Games/4.10/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (2060772590) Localized String: (ブレンドスペースでサンプリングするX座標)
+[2016.10.04-02.46.28:835][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:Y):
+Localization Resource: (c:/Program Files/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (-1719607538) Localized String: (ブレンドスペースで値を取得するY座標)
+Localization Resource: (c:/Program Files/Epic Games/4.10/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (-1719607538) Localized String: (ブレンドスペースでサンプリングするY座標)
+[2016.10.04-02.46.28:835][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:Z):
+Localization Resource: (c:/Program Files/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (1728943471) Localized String: (ブレンドスペースで値を取得するZ座標)
+Localization Resource: (c:/Program Files/Epic Games/4.10/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (1728943471) Localized String: (ブレンドスペースでサンプリングするZ座標)
+[2016.10.04-02.46.28:835][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:BlendSpace):
+Localization Resource: (c:/Program Files/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (1599043277) Localized String: (再生するブレンドスペースのアセット)
+Localization Resource: (c:/Program Files/Epic Games/4.10/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (1599043277) Localized String: (再生するブレンド空間アセット)
+[2016.10.04-02.46.28:835][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_StateMachine:MaxTransitionsPerFrame):
+Localization Resource: (c:/Program Files/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (1567650430) Localized String: (このマシーンで1フレームあたりに同時に処理できるトランジションの最大数)
+Localization Resource: (c:/Program Files/Epic Games/4.10/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (1567650430) Localized String: (単一フレームでマシーンが「同時」に受け取れる遷移の最大数)
+[2016.10.04-02.46.28:835][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:PlayRate):
+Localization Resource: (c:/Program Files/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (-1274923958) Localized String: (再生速度の倍率です。負の数値も使う事ができます。その場合逆再生になります。)
+Localization Resource: (c:/Program Files/Epic Games/4.10/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (-1274923958) Localized String: (再生レート乗数。アニメーションを逆再生する負の値にすることができます。)
+[2016.10.04-02.46.29:468][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2016.10.04-02.46.29:468][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 1 output[s]
+[2016.10.04-02.46.29:473][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.10.04-02.46.29:473][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.10.04-02.46.29:473][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.10.04-02.46.29:491][  0]LogD3D11RHI: !Direct3DDevice
+[2016.10.04-02.46.29:492][  0]LogRHI: Texture pool is 627 MB (70% of 896 MB)
+[2016.10.04-02.46.29:516][  0]LogD3D11RHI: Async texture creation enabled
+[2016.10.04-02.46.29:536][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (../../../../../../Users/祐史/Documents/SandBoxie/Intermediate/Shaders/WorkingDirectory/5708/).
+[2016.10.04-02.46.29:537][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/祐史/AppData/Local/Temp/UnrealShaderWorkingDir/08B996784D8DBF53D2CABCAAA0D8A7CC/'.
+[2016.10.04-02.46.29:537][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.10.04-02.46.35:475][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.10.04-02.46.35:494][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.10.04-02.46.35:515][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.10.04-02.46.35:538][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.10.04-02.46.35:553][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.10.04-02.46.35:567][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.10.04-02.46.35:578][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.10.04-02.46.35:590][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.10.04-02.46.35:605][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.10.04-02.46.35:617][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.10.04-02.46.35:634][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.10.04-02.46.35:657][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.10.04-02.46.35:657][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.10.04-02.46.35:660][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.10.04-02.46.35:719][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.10.04-02.46.35:735][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.10.04-02.46.35:745][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.10.04-02.46.35:770][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.10.04-02.46.35:770][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.10.04-02.46.36:195][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.10.04-02.46.36:846][  0]LogDerivedDataCache: Loaded boot cache 0.65s 41MB C:/Users/祐史/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.10.04-02.46.36:846][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/祐史/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.10.04-02.46.36:846][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/祐史/Documents/SandBoxie/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.10.04-02.46.36:846][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.10.04-02.46.36:846][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/祐史/Documents/SandBoxie/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.10.04-02.46.36:846][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.10.04-02.46.37:121][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.10.04-02.46.37:137][  0]LogDerivedDataCache: Using Local data cache path C:/Users/祐史/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.10.04-02.46.39:679][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.04-02.46.39:689][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.10.04-02.46.40:232][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.10.04-02.46.40:232][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.10.04-02.46.41:284][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.10.04-02.46.59:865][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.10.04-02.47.00:344][  0]LogAssetRegistry: FAssetRegistry took 0.0125 seconds to start up
+[2016.10.04-02.47.01:189][  0]SourceControl: 情報 ソースコントロールは無効です
+[2016.10.04-02.47.04:026][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.10.04-02.47.04:026][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2016.10.04-02.47.04:275][  0]LogEngine: Initializing Engine...
+[2016.10.04-02.47.04:295][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.10.04-02.47.04:298][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.10.04-02.47.04:822][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.10.04-02.47.04:831][  0]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.04-02.47.04:862][  0]LogInit: FAudioDevice initialized.
+[2016.10.04-02.47.04:952][  0]LogDerivedDataCache: Saved boot cache 0.09s 41MB C:/Users/祐史/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.10.04-02.47.04:975][  0]LogInit: Texture streaming: Enabled
+[2016.10.04-02.47.04:992][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.10.04-02.47.04:992][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.10.04-02.47.04:992][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId cdb51bdb45298221e20be8b0513bfe91|2f5e9385964f4f108484acd32fa76992|80daa02f-8b9f-47e2-9d89-bd4738fee79c
+[2016.10.04-02.47.04:992][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.10.04-02.47.05:026][  0]LogInit: Transaction tracking system initialized
+[2016.10.04-02.47.05:142][  0]BlueprintLog: New page: エディタの読み込み
+[2016.10.04-02.47.05:488][  0]LocalizationService: 情報 ローカライズのサービスが無効になりました
+[2016.10.04-02.47.05:785][  0]LogConsoleResponse:Display: 
+[2016.10.04-02.47.06:273][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.10.04-02.47.06:725][  0]LogFileCache: Scanning file cache for directory 'c:/Users/祐史/Documents/SandBoxie/Content/' took 0.03s
+[2016.10.04-02.47.07:386][  0]Cmd: MAP LOAD FILE="../../../../../../Users/祐史/Documents/SandBoxie/Content/Maps/TestStage.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.04-02.47.07:388][  0]LightingResults: New page: ライティングのビルド
+[2016.10.04-02.47.07:396][  0]MapCheck: New page: マップをチェック
+[2016.10.04-02.47.07:396][  0]LightingResults: New page: <何も選択されていません>
+[2016.10.04-02.47.07:478][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009B10B8B240
+[2016.10.04-02.47.15:235][  0]LogAIModule: Creating AISystem for world TestStage
+[2016.10.04-02.47.17:507][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.04-02.47.17:511][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.04-02.47.17:734][  0]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 221.921ミリ秒かかりました。
+[2016.10.04-02.47.17:734][  0]LogFileHelpers: Loading map 'TestStage' took 10.348
+[2016.10.04-02.47.18:366][  0]LogCollectionManager: Loaded 0 collections in 0.007493 seconds
+[2016.10.04-02.47.18:443][  0]LogFileCache: Scanning file cache for directory 'c:/Users/祐史/Documents/SandBoxie/Saved/Collections/' took 0.01s
+[2016.10.04-02.47.18:443][  0]LogFileCache: Scanning file cache for directory 'c:/Users/祐史/Documents/SandBoxie/Content/Developers/祐史/Collections/' took 0.01s
+[2016.10.04-02.47.18:443][  0]LogFileCache: Scanning file cache for directory 'c:/Users/祐史/Documents/SandBoxie/Content/Collections/' took 0.01s
+[2016.10.04-02.47.18:443][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000008 seconds
+[2016.10.04-02.47.18:505][  0]LogContentBrowser: Native class hierarchy populated in 0.0620 seconds. Added 1893 classes and 338 folders.
+[2016.10.04-02.47.18:537][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2016.10.04-02.47.19:332][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2016.10.04-02.47.19:351][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0016 seconds. Added 1 classes and 3 folders.
+[2016.10.04-02.47.19:427][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0020 seconds. Added 1 classes and 2 folders.
+[2016.10.04-02.47.19:444][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.10.04-02.47.19:460][  0]LogUObjectGlobals:Warning: オブジェクト 'Class なし.' が見つかりませんでした
+[2016.10.04-02.47.19:496][  0]LogLoad: Full Startup: 56.72 seconds (BP compile: 0.77 seconds)
+[2016.10.04-02.47.19:580][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft IME).
+[2016.10.04-02.47.19:606][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.10.04-02.47.19:804][  0]SourceControl: 情報 On branch master
+[2016.10.04-02.47.19:804][  0]SourceControl: 情報 Your branch is up-to-date with 'origin/master'.
+[2016.10.04-02.47.19:804][  0]SourceControl: 情報 Changes to be committed:
+[2016.10.04-02.47.19:804][  0]SourceControl: 情報   (use "git reset HEAD <file>..." to unstage)
+[2016.10.04-02.47.19:804][  0]SourceControl: 情報 	new file:   "Content/Texture/\347\234\213\346\235\27702_\343\202\253\343\203\203\343\203\210_.uasset"
+[2016.10.04-02.47.19:804][  0]SourceControl: 情報 	new file:   "Content/Texture/\347\234\213\346\235\27702_\343\202\253\343\203\203\343\203\210__Mat.uasset"
+[2016.10.04-02.47.19:804][  0]SourceControl: 情報 Changes not staged for commit:
+[2016.10.04-02.47.19:804][  0]SourceControl: 情報   (use "git add <file>..." to update what will be committed)
+[2016.10.04-02.47.19:804][  0]SourceControl: 情報   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.10.04-02.47.19:804][  0]SourceControl: 情報 	modified:   Content/Maps/TestStage.umap
+[2016.10.04-02.47.19:804][  0]SourceControl: 情報 	modified:   Saved/AutoScreenshot.png
+[2016.10.04-02.47.19:804][  0]SourceControl: 情報 Untracked files:
+[2016.10.04-02.47.19:804][  0]SourceControl: 情報   (use "git add <file>..." to include in what will be committed)
+[2016.10.04-02.47.19:805][  0]SourceControl: 情報 	Intermediate/CachedAssetRegistry.bin
+[2016.10.04-02.47.19:805][  0]SourceControl: 情報 	Intermediate/Config/CoalescedSourceConfigs/Editor.ini
+[2016.10.04-02.47.19:805][  0]SourceControl: 情報 	Intermediate/Config/CoalescedSourceConfigs/EditorPerProjectUserSettings.ini
+[2016.10.04-02.47.19:805][  0]SourceControl: 情報 	Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2016.10.04-02.47.19:805][  0]SourceControl: 情報 	Intermediate/Config/CoalescedSourceConfigs/Game.ini
+[2016.10.04-02.47.19:805][  0]SourceControl: 情報 	Intermediate/ReimportCache/
+[2016.10.04-02.47.19:805][  0]SourceControl: 情報 	Saved/Autosaves/
+[2016.10.04-02.47.19:805][  0]SourceControl: 情報 	Saved/Backup/
+[2016.10.04-02.47.19:805][  0]SourceControl: 情報 	Saved/Config/Windows/Editor.ini
+[2016.10.04-02.47.19:805][  0]SourceControl: 情報 	Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2016.10.04-02.47.19:805][  0]SourceControl: 情報 	Saved/Config/Windows/Engine.ini
+[2016.10.04-02.47.19:805][  0]SourceControl: 情報 	Saved/Config/WorldState/3437554970.json
+[2016.10.04-02.47.19:805][  0]SourceControl: 情報 	Saved/Logs/
+[2016.10.04-02.47.19:805][  0]LogContentStreaming: Texture pool size now 400 MB
+[2016.10.04-02.47.20:390][  0]LogRenderer: Reallocating scene render targets to support 680x416 (Frame:2).
+[2016.10.04-02.47.30:297][ 14]LogAssetRegistry: Asset discovery search completed in 29.9650 seconds
+[2016.10.04-02.47.30:297][ 14]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2016.10.04-02.47.30:297][ 14]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000066 seconds (updated 0 objects)
+[2016.10.04-02.48.06:820][142]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2016.10.04-02.48.15:071][346]Cmd: TRANSACTION UNDO
+[2016.10.04-02.48.15:071][346]LogEditorTransaction: Undo アクタ を移動
+[2016.10.04-02.48.27:908][700]LogEditorViewport: Clicking Background
+[2016.10.04-02.48.29:369][739]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cylinder)
+[2016.10.04-02.48.32:275][813]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2016.10.04-02.48.36:760][934]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cylinder)
+[2016.10.04-02.49.34:159][ 74]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cylinder)
+[2016.10.04-02.49.37:151][159]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2016.10.04-02.49.52:567][598]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cylinder)
+[2016.10.04-02.50.03:665][906]LogEditorViewport: Clicking Background
+[2016.10.04-02.51.28:258][905]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2016.10.04-02.52.03:841][939]LogEditorViewport: Clicking Background
+[2016.10.04-02.57.20:450][659]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestStage" FILE="../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Maps/TestStage_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.10.04-02.57.21:418][659]LogSavePackage: Save=881.191895ms
+[2016.10.04-02.57.21:418][659]LogSavePackage: Moving '../../../../../../Users/祐史/Documents/SandBoxie/Saved/TestStage_Auto14E4AF7484131DAE2A94728A4A19DEF85.tmp' to '../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Maps/TestStage_Auto1.umap'
+[2016.10.04-02.57.21:429][659]LogSavePackage: Total save time: 972.289804ms
+[2016.10.04-02.57.21:430][659]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Maps/TestStage_Auto1.umap
+[2016.10.04-02.57.21:442][659]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestStage' took 1.151
+[2016.10.04-02.57.21:442][659]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.151
+[2016.10.04-05.10.09:490][529]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2016.10.04-05.11.01:307][319]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestStage" FILE="../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Maps/TestStage_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.10.04-05.11.02:138][319]LogSavePackage: Save=810.831116ms
+[2016.10.04-05.11.02:139][319]LogSavePackage: Moving '../../../../../../Users/祐史/Documents/SandBoxie/Saved/TestStage_Auto2F15F0B5B47B3D6AF32A01AA27F955536.tmp' to '../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Maps/TestStage_Auto2.umap'
+[2016.10.04-05.11.02:146][319]LogSavePackage: Total save time: 831.290707ms
+[2016.10.04-05.11.02:146][319]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Maps/TestStage_Auto2.umap
+[2016.10.04-05.11.02:154][319]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestStage' took 0.952
+[2016.10.04-05.11.02:154][319]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.952
+[2016.10.04-05.17.35:072][785]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/祐史/Desktop/dore/木の板(編集).png)
+[2016.10.04-05.17.35:347][785]LogTexture:Display: テクスチャをビルド中: 木の板_編集_ (BGRA8)
+[2016.10.04-05.17.41:671][804]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/祐史/Desktop/dore/看板02 (紙のみ).png)
+[2016.10.04-05.17.41:940][804]LogTexture:Display: テクスチャをビルド中: 看板02__紙のみ_ (BGRA8)
+[2016.10.04-05.17.44:386][854]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2016.10.04-05.17.53:557][ 66]LogEditorViewport: Clicking Background
+[2016.10.04-05.17.57:274][195]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2016.10.04-05.17.58:747][243]Cmd: EDIT COPY
+[2016.10.04-05.17.59:258][243]Cmd: EDIT PASTE
+[2016.10.04-05.18.16:179][819]PIE:Warning: 警告 スケール ''X=4.250 Y=0.000 Z=2.750'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.18.16:179][819]PIE:Warning: 警告 スケール ''X=4.250 Y=0.000 Z=2.750'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.18.22:559][ 50]PIE:Warning: 警告 スケール ''X=4.250 Y=0.000 Z=2.500'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.18.22:559][ 50]PIE:Warning: 警告 スケール ''X=4.250 Y=0.000 Z=2.500'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.18.28:812][281]PIE:Warning: 警告 スケール ''X=4.000 Y=0.000 Z=2.500'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.18.28:812][281]PIE:Warning: 警告 スケール ''X=4.000 Y=0.000 Z=2.500'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.18.47:100][936]PIE:Warning: 警告 スケール ''X=4.000 Y=0.000 Z=2.500'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.18.47:100][936]PIE:Warning: 警告 スケール ''X=4.000 Y=0.000 Z=2.500'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.18.47:844][963]PIE:Warning: 警告 スケール ''X=4.000 Y=0.000 Z=2.500'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.18.47:844][963]PIE:Warning: 警告 スケール ''X=4.000 Y=0.000 Z=2.500'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.18.54:241][181]PIE:Warning: 警告 スケール ''X=3.750 Y=0.000 Z=2.500'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.18.54:242][181]PIE:Warning: 警告 スケール ''X=3.750 Y=0.000 Z=2.500'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.18.54:790][200]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.500'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.18.54:790][200]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.500'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.18.55:984][241]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.250'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.18.55:984][241]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.250'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.18.56:149][247]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.18.56:149][247]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.01:363][427]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.01:364][427]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.01:393][428]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.01:393][428]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.01:422][429]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.01:423][429]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.01:450][430]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.01:450][430]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.01:476][431]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.01:477][431]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.01:503][432]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.01:503][432]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.06:415][600]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.06:415][600]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.06:440][601]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.06:440][601]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.06:467][602]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.06:467][602]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.06:497][603]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.06:498][603]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.06:549][605]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.06:550][605]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.06:580][606]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.06:580][606]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.06:610][607]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.06:610][607]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.06:635][608]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.06:635][608]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.06:663][609]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.06:663][609]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.06:687][610]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.06:687][610]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.06:866][616]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.06:866][616]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.06:893][617]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.06:894][617]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.06:921][618]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.06:921][618]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.08:187][663]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2016.10.04-05.19.11:899][780]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube2)
+[2016.10.04-05.19.13:121][817]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.13:121][817]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.13:147][818]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.13:147][818]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.13:921][843]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.13:921][843]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.13:949][844]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.13:949][844]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.13:977][845]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.13:977][845]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.14:872][874]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.14:872][874]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.14:898][875]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.14:899][875]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.14:929][876]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.14:929][876]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.14:979][878]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.14:979][878]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.15:034][880]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.15:035][880]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.15:069][881]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.15:069][881]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.15:160][884]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.15:160][884]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.20:505][ 61]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2016.10.04-05.19.32:293][456]LogMaterial: Missing cached shader map for material 看板02__紙のみ__Mat, compiling. 
+[2016.10.04-05.19.37:937][646]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube2)
+[2016.10.04-05.19.39:593][703]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.39:593][703]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.39:616][704]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.39:616][704]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.39:661][706]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.39:661][706]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.39:684][707]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.39:684][707]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.39:705][708]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.39:705][708]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.39:726][709]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.39:726][709]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.39:754][710]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.39:754][710]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.39:781][711]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.39:782][711]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.39:810][712]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.39:810][712]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.39:837][713]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.39:837][713]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.39:864][714]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.39:865][714]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.39:918][716]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.39:918][716]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.39:945][717]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.39:945][717]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.39:974][718]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.39:974][718]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.39:999][719]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.40:000][719]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.40:026][720]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.40:026][720]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.40:054][721]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.40:054][721]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.40:408][734]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.40:409][734]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.40:460][736]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.40:460][736]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.40:488][737]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.40:488][737]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.40:515][738]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.40:515][738]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.40:542][739]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.40:542][739]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.40:569][740]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.40:570][740]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.40:762][747]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.40:762][747]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.40:818][749]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.40:818][749]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.40:846][750]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.40:846][750]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.40:873][751]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.40:873][751]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.40:900][752]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.40:900][752]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.40:927][753]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.40:928][753]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.40:984][755]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.40:984][755]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.48:466][ 10]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.48:467][ 10]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.48:501][ 11]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.48:501][ 11]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.48:531][ 12]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.48:531][ 12]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.48:563][ 13]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.48:563][ 13]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.48:683][ 17]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.48:683][ 17]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.48:713][ 18]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.48:713][ 18]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.48:746][ 19]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.48:746][ 19]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.48:784][ 20]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.48:784][ 20]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.51:140][ 98]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.51:140][ 98]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.51:165][ 99]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.51:166][ 99]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.51:335][105]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.51:336][105]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.51:362][106]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.51:362][106]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.51:390][107]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.19.51:390][107]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.20.10:543][758]LogEditorViewport: Clicking Background
+[2016.10.04-05.20.11:669][798]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight2)
+[2016.10.04-05.20.12:734][829]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2016.10.04-05.20.14:129][874]Cmd: DELETE
+[2016.10.04-05.20.14:129][874]Cmd: ACTOR DELETE
+[2016.10.04-05.20.14:182][874]LogEditorActor: Deleted Actor: PointLight
+[2016.10.04-05.20.14:267][874]LogEditorActor: Deleted 1 Actors (0.109 secs)
+[2016.10.04-05.20.15:118][906]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight2)
+[2016.10.04-05.21.16:104][988]LogEditorViewport: Clicking Background
+[2016.10.04-05.21.18:223][ 64]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight2)
+[2016.10.04-05.21.21:619][174]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube2)
+[2016.10.04-05.21.23:519][233]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.23:519][233]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.23:555][234]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.23:556][234]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.23:583][235]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.23:583][235]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.23:611][236]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.23:611][236]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.23:639][237]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.23:639][237]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.23:670][238]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.23:670][238]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.23:700][239]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.23:700][239]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.23:729][240]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.23:729][240]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.23:768][241]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.23:769][241]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.23:805][242]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.23:806][242]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.23:858][244]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.23:859][244]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.23:909][246]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.23:909][246]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.23:939][247]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.23:940][247]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.23:994][249]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.23:994][249]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.24:021][250]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.24:021][250]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.24:051][251]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.24:051][251]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.24:275][259]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.24:275][259]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.24:329][261]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.24:329][261]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.24:385][263]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.24:386][263]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.24:411][264]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.24:412][264]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.24:440][265]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.24:441][265]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.24:489][267]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.24:489][267]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.24:571][270]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.24:571][270]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.25:677][306]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.25:677][306]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.25:710][307]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.25:710][307]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.25:753][308]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.25:754][308]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.25:787][309]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.25:787][309]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.25:816][310]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.25:816][310]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.25:846][311]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.25:846][311]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.25:869][312]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.25:869][312]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.25:900][313]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.25:900][313]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.25:929][314]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.25:930][314]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.25:957][315]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.25:957][315]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.26:298][328]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.26:298][328]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.26:327][329]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.26:328][329]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.26:355][330]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.26:356][330]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.27:344][362]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight2)
+[2016.10.04-05.21.38:579][740]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube2)
+[2016.10.04-05.21.53:949][381]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.53:950][381]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.53:980][382]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.53:981][382]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.54:035][384]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.54:035][384]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.54:089][386]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.54:089][386]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.54:116][387]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.54:116][387]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.54:147][388]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.54:147][388]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.54:175][389]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.54:175][389]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.54:201][390]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.54:201][390]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.54:661][407]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.54:662][407]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.54:692][408]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.54:692][408]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.54:719][409]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.54:720][409]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.54:756][410]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.54:757][410]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.54:794][411]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.54:794][411]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.54:826][412]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.54:826][412]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.54:879][414]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.54:879][414]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.54:912][415]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.54:912][415]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.54:943][416]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.54:944][416]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.54:971][417]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.54:972][417]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:000][418]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:001][418]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:029][419]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:029][419]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:085][421]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:085][421]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:181][425]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:182][425]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:214][426]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:214][426]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:239][427]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:240][427]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:395][433]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:395][433]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:448][435]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:449][435]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:501][437]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:501][437]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:527][438]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:528][438]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:558][439]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:559][439]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:587][440]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:588][440]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:621][441]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:621][441]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:649][442]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:649][442]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:676][443]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:677][443]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:706][444]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:706][444]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:738][445]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:739][445]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:810][447]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:810][447]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:839][448]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:840][448]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:896][450]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:896][450]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:926][451]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:927][451]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:954][452]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:955][452]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:986][453]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.55:986][453]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.56:130][458]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.56:130][458]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.56:161][459]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.56:161][459]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.56:189][460]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.56:189][460]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.56:219][461]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.56:220][461]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.56:248][462]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.56:249][462]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.56:299][464]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.56:300][464]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.56:325][465]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.56:325][465]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.56:349][466]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.56:349][466]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.56:404][468]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.56:404][468]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.56:457][470]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.56:458][470]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.56:513][472]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.56:514][472]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.59:808][584]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.59:809][584]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.59:837][585]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.59:837][585]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.59:867][586]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.59:867][586]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.59:945][589]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.59:946][589]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.59:974][590]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.21.59:975][590]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.00:004][591]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.00:004][591]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.00:028][592]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.00:028][592]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.00:055][593]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.00:056][593]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.00:139][596]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.00:139][596]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.00:194][598]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.00:194][598]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.00:225][599]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.00:225][599]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.00:251][600]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.00:252][600]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.00:276][601]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.00:277][601]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.00:304][602]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.00:304][602]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.00:471][608]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.00:471][608]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.00:497][609]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.00:497][609]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.00:518][610]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.00:518][610]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.00:545][611]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.00:546][611]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.00:574][612]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.00:575][612]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.01:528][645]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.01:529][645]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.01:558][646]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.01:558][646]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.01:585][647]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.01:585][647]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.01:614][648]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.01:614][648]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.01:696][651]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.01:697][651]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.01:727][652]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.01:727][652]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.01:759][653]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.01:760][653]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.01:796][654]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.01:796][654]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.01:827][655]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.01:827][655]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.01:857][656]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.01:857][656]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.01:938][659]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.01:938][659]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.01:995][661]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.01:995][661]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:022][662]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:023][662]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:052][663]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:052][663]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:083][664]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:084][664]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:108][665]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:108][665]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:135][666]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:136][666]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:190][668]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:190][668]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:244][670]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:245][670]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:274][671]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:274][671]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:299][672]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:299][672]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:331][673]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:331][673]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:381][675]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:382][675]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:436][677]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:437][677]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:463][678]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:463][678]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:519][680]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:519][680]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:545][681]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:545][681]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:602][683]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:602][683]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:629][684]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:629][684]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:856][692]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:857][692]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:883][693]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:883][693]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:914][694]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:914][694]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:966][696]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:966][696]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:992][697]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.02:993][697]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.03:021][698]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.03:021][698]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.03:075][700]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.03:075][700]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.19:817][282]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.19:817][282]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.19:845][283]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.19:845][283]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.19:869][284]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.19:869][284]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.19:897][285]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.19:898][285]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.19:952][287]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.19:952][287]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.20:008][289]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.20:009][289]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.20:036][290]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.20:036][290]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.20:092][292]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.20:092][292]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.20:607][311]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.20:607][311]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.20:636][312]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.20:636][312]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.20:663][313]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.20:664][313]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.20:696][314]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.20:696][314]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.20:723][315]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.20:723][315]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.20:769][316]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.20:769][316]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.20:806][317]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.20:807][317]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.20:862][319]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.20:862][319]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.20:918][321]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.20:919][321]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.20:953][322]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.20:953][322]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.21:007][324]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.21:007][324]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.21:269][334]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.21:270][334]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.21:298][335]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.21:299][335]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.21:364][337]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.21:364][337]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.21:468][341]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.21:468][341]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.21:519][343]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.21:521][343]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.26:513][516]LogMaterial: Missing cached shader map for material 木の板_編集__Mat, compiling. 
+[2016.10.04-05.22.29:471][609]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.29:472][609]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.29:494][610]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.29:495][610]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.29:519][611]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.29:520][611]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.29:545][612]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.29:545][612]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.29:570][613]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.29:570][613]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.29:593][614]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.29:594][614]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.29:617][615]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.29:618][615]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.29:643][616]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.29:643][616]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.29:670][617]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.29:671][617]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.29:698][618]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.29:698][618]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.29:727][619]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.29:727][619]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.29:768][620]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.29:769][620]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.29:825][622]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.29:826][622]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.29:847][623]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.29:848][623]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.29:877][624]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.29:877][624]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.37:795][898]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube2)
+[2016.10.04-05.22.38:697][927]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.38:697][927]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.38:722][928]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.38:722][928]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.38:753][929]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.38:753][929]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.38:786][930]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.38:787][930]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.38:825][931]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.38:825][931]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.38:965][936]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.38:965][936]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.38:994][937]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.38:994][937]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.39:080][940]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.39:080][940]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.39:112][941]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.39:112][941]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.39:174][943]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.39:174][943]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.39:205][944]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.22.39:205][944]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.23.02:778][767]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.23.02:779][767]PIE:Warning: 警告 スケール ''X=3.500 Y=0.000 Z=2.000'' はオブジェクト '/Game/Maps/TestStage.TestStage:PersistentLevel.Shape_Cube2.StaticMeshComponent0 Shape_Cube' に無効です
+[2016.10.04-05.23.15:916][332]LogEditorViewport: Clicking Background
+[2016.10.04-05.23.17:948][406]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube2)
+[2016.10.04-05.23.48:567][278]LogEditorViewport: Clicking Background
+[2016.10.04-05.24.02:619][788]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2016.10.04-05.24.36:735][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestStage" FILE="../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Maps/TestStage_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.10.04-05.24.37:559][212]LogSavePackage: Save=798.435730ms
+[2016.10.04-05.24.37:559][212]LogSavePackage: Moving '../../../../../../Users/祐史/Documents/SandBoxie/Saved/TestStage_Auto384D293B547A0686E210FBB8B161E1939.tmp' to '../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Maps/TestStage_Auto3.umap'
+[2016.10.04-05.24.37:617][212]LogSavePackage: Total save time: 875.574544ms
+[2016.10.04-05.24.37:617][212]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Maps/TestStage_Auto3.umap
+[2016.10.04-05.24.37:624][212]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestStage' took 0.993
+[2016.10.04-05.24.37:625][212]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.993
+[2016.10.04-05.24.37:649][212]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Texture/木の板_編集_] ([1] browsable assets)...
+[2016.10.04-05.24.37:672][212]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Texture/木の板_編集_.木の板_編集_]
+[2016.10.04-05.24.37:672][212]OBJ SavePackage: Finished generating thumbnails for package [/Game/Texture/木の板_編集_]
+[2016.10.04-05.24.37:672][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Texture/木の板_編集_" FILE="../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Texture/木の板_編集__Auto3.uasset" SILENT=false AUTOSAVING=true
+[2016.10.04-05.24.37:699][212]LogSavePackage: Save=20.534533ms
+[2016.10.04-05.24.37:699][212]LogSavePackage: Moving '../../../../../../Users/祐史/Documents/SandBoxie/Saved/木の板_編集__Auto33E8871534F20ECDDDE4F1B8C63A4294B.tmp' to '../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Texture/木の板_編集__Auto3.uasset'
+[2016.10.04-05.24.37:724][212]LogSavePackage: Total save time: 46.485621ms
+[2016.10.04-05.24.37:724][212]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Texture/木の板_編集__Auto3.uasset
+[2016.10.04-05.24.37:735][212]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Texture/看板02__紙のみ_] ([1] browsable assets)...
+[2016.10.04-05.24.37:760][212]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Texture/看板02__紙のみ_.看板02__紙のみ_]
+[2016.10.04-05.24.37:761][212]OBJ SavePackage: Finished generating thumbnails for package [/Game/Texture/看板02__紙のみ_]
+[2016.10.04-05.24.37:761][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Texture/看板02__紙のみ_" FILE="../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Texture/看板02__紙のみ__Auto3.uasset" SILENT=false AUTOSAVING=true
+[2016.10.04-05.24.37:803][212]LogSavePackage: Save=30.365370ms
+[2016.10.04-05.24.37:803][212]LogSavePackage: Moving '../../../../../../Users/祐史/Documents/SandBoxie/Saved/看板02__紙のみ__Auto3C8FE454242C2E94109F744B02242C1B5.tmp' to '../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Texture/看板02__紙のみ__Auto3.uasset'
+[2016.10.04-05.24.37:811][212]LogSavePackage: Total save time: 39.419737ms
+[2016.10.04-05.24.37:811][212]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Texture/看板02__紙のみ__Auto3.uasset
+[2016.10.04-05.24.37:820][212]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Texture/看板02__紙のみ__Mat] ([1] browsable assets)...
+[2016.10.04-05.24.37:873][212]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Texture/看板02__紙のみ__Mat.看板02__紙のみ__Mat]
+[2016.10.04-05.24.37:873][212]OBJ SavePackage: Finished generating thumbnails for package [/Game/Texture/看板02__紙のみ__Mat]
+[2016.10.04-05.24.37:875][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Texture/看板02__紙のみ__Mat" FILE="../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Texture/看板02__紙のみ__Mat_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2016.10.04-05.24.37:928][212]LogSavePackage: Save=42.490810ms
+[2016.10.04-05.24.37:928][212]LogSavePackage: Moving '../../../../../../Users/祐史/Documents/SandBoxie/Saved/看板02__紙のみ__Mat_Auto3DBC2596C451A2029C359CFBDD54F0624.tmp' to '../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Texture/看板02__紙のみ__Mat_Auto3.uasset'
+[2016.10.04-05.24.37:936][212]LogSavePackage: Total save time: 52.845988ms
+[2016.10.04-05.24.37:936][212]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Texture/看板02__紙のみ__Mat_Auto3.uasset
+[2016.10.04-05.24.37:944][212]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Texture/木の板_編集__Mat] ([1] browsable assets)...
+[2016.10.04-05.24.37:995][212]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Texture/木の板_編集__Mat.木の板_編集__Mat]
+[2016.10.04-05.24.37:995][212]OBJ SavePackage: Finished generating thumbnails for package [/Game/Texture/木の板_編集__Mat]
+[2016.10.04-05.24.37:995][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Texture/木の板_編集__Mat" FILE="../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Texture/木の板_編集__Mat_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2016.10.04-05.24.38:049][212]LogSavePackage: Save=47.992153ms
+[2016.10.04-05.24.38:049][212]LogSavePackage: Moving '../../../../../../Users/祐史/Documents/SandBoxie/Saved/木の板_編集__Mat_Auto3E253BD0442CDBC3DEB12CF9B41EA2035.tmp' to '../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Texture/木の板_編集__Mat_Auto3.uasset'
+[2016.10.04-05.24.38:056][212]LogSavePackage: Total save time: 55.364165ms
+[2016.10.04-05.24.38:056][212]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Texture/木の板_編集__Mat_Auto3.uasset
+[2016.10.04-05.24.38:056][212]LogFileHelpers: Auto-saving content packages took 0.417
+[2016.10.04-05.25.31:728][648]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube2)
+[2016.10.04-05.25.37:068][697]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/祐史/Desktop/dore/看板02 (紙のみ 編集).png)
+[2016.10.04-05.25.37:351][697]LogTexture:Display: テクスチャをビルド中: 看板02__紙のみ_編集_ (BGRA8)
+[2016.10.04-05.25.41:951][839]LogMaterial: Missing cached shader map for material 看板02__紙のみ_編集__Mat, compiling. 
+[2016.10.04-05.26.10:809][729]LogEditorViewport: Clicking Background
+[2016.10.04-05.26.12:908][807]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube2)
+[2016.10.04-05.26.35:294][575]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2016.10.04-05.26.44:703][869]LogEditorViewport: Clicking Background
+[2016.10.04-05.26.46:601][940]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube2)
+[2016.10.04-05.27.05:892][541]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2016.10.04-05.27.32:400][428]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2016.10.04-05.27.44:683][823]Cmd: TRANSACTION UNDO
+[2016.10.04-05.27.44:683][823]LogEditorTransaction: Undo アクタ を移動
+[2016.10.04-05.27.46:065][868]LogEditorViewport: Clicking Background
+[2016.10.04-05.28.05:571][520]LogEditorViewport: Clicking Background
+[2016.10.04-05.28.06:850][562]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube2)
+[2016.10.04-05.29.06:333][476]LogEditorViewport: Clicking Background
+[2016.10.04-05.29.11:648][664]Cmd: TRANSACTION UNDO
+[2016.10.04-05.29.11:648][664]LogEditorTransaction: Undo アクタをクリック
+[2016.10.04-05.29.25:379][140]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2016.10.04-05.29.32:020][320]LogEditorViewport: Clicking Background
+[2016.10.04-05.29.42:162][631]LogEditorViewport: Clicking Background
+[2016.10.04-05.30.07:554][605]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube2)
+[2016.10.04-05.30.12:655][776]LogEditorViewport: Clicking Background
+[2016.10.04-05.31.30:388][680]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube2)
+[2016.10.04-05.31.48:182][150]LogEditorViewport: Clicking Background
+[2016.10.04-05.31.49:467][197]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2016.10.04-05.31.51:350][255]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2016.10.04-05.31.54:377][337]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube2)
+[2016.10.04-05.32.18:561][133]LogEditorViewport: Clicking Background
+[2016.10.04-05.34.39:064][653]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestStage" FILE="../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Maps/TestStage_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.10.04-05.34.39:901][653]LogSavePackage: Save=817.853271ms
+[2016.10.04-05.34.39:901][653]LogSavePackage: Moving '../../../../../../Users/祐史/Documents/SandBoxie/Saved/TestStage_Auto4FCEFE2E04D4320D80F180CA8865B6D8E.tmp' to '../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Maps/TestStage_Auto4.umap'
+[2016.10.04-05.34.39:972][653]LogSavePackage: Total save time: 901.526079ms
+[2016.10.04-05.34.39:972][653]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Maps/TestStage_Auto4.umap
+[2016.10.04-05.34.39:981][653]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestStage' took 1.020
+[2016.10.04-05.34.39:982][653]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.020
+[2016.10.04-05.34.39:998][653]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Texture/看板02__紙のみ_編集_] ([1] browsable assets)...
+[2016.10.04-05.34.40:022][653]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Texture/看板02__紙のみ_編集_.看板02__紙のみ_編集_]
+[2016.10.04-05.34.40:022][653]OBJ SavePackage: Finished generating thumbnails for package [/Game/Texture/看板02__紙のみ_編集_]
+[2016.10.04-05.34.40:022][653]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Texture/看板02__紙のみ_編集_" FILE="../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Texture/看板02__紙のみ_編集__Auto4.uasset" SILENT=false AUTOSAVING=true
+[2016.10.04-05.34.40:056][653]LogSavePackage: Save=27.464314ms
+[2016.10.04-05.34.40:056][653]LogSavePackage: Moving '../../../../../../Users/祐史/Documents/SandBoxie/Saved/看板02__紙のみ_編集__Auto4D6CF8EB54FDDFB60038ABCB756B2668F.tmp' to '../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Texture/看板02__紙のみ_編集__Auto4.uasset'
+[2016.10.04-05.34.40:063][653]LogSavePackage: Total save time: 35.564601ms
+[2016.10.04-05.34.40:063][653]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Texture/看板02__紙のみ_編集__Auto4.uasset
+[2016.10.04-05.34.40:073][653]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Texture/看板02__紙のみ_編集__Mat] ([1] browsable assets)...
+[2016.10.04-05.34.40:156][653]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Texture/看板02__紙のみ_編集__Mat.看板02__紙のみ_編集__Mat]
+[2016.10.04-05.34.40:156][653]OBJ SavePackage: Finished generating thumbnails for package [/Game/Texture/看板02__紙のみ_編集__Mat]
+[2016.10.04-05.34.40:206][653]LogSavePackage: Save=44.314178ms
+[2016.10.04-05.34.40:206][653]LogSavePackage: Moving '../../../../../../Users/祐史/Documents/SandBoxie/Saved/看板02__紙のみ_編集__Mat_Auto4D52BC6C44CF0A2FB740C11A254EC9B62.tmp' to '../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Texture/看板02__紙のみ_編集__Mat_Auto4.uasset'
+[2016.10.04-05.34.40:213][653]LogSavePackage: Total save time: 52.463558ms
+[2016.10.04-05.34.40:213][653]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Texture/看板02__紙のみ_編集__Mat_Auto4.uasset
+[2016.10.04-05.34.40:213][653]LogFileHelpers: Auto-saving content packages took 0.224
+[2016.10.04-05.37.18:496][221]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/祐史/Desktop/dore/木(縦).png)
+[2016.10.04-05.37.18:569][221]LogTexture:Display: テクスチャをビルド中: 木_縦_ (BGRA8)
+[2016.10.04-05.37.22:453][360]LogMaterial: Missing cached shader map for material 木_縦__Mat, compiling. 
+[2016.10.04-05.38.49:546][500]LogEditorViewport: Clicking Background
+[2016.10.04-05.39.29:890][951]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube2)
+[2016.10.04-05.39.30:898][977]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2016.10.04-05.39.34:524][ 96]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube2)
+[2016.10.04-05.40.33:950][ 64]LogEditorViewport: Clicking Background
+[2016.10.04-05.40.35:634][122]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cylinder)
+[2016.10.04-05.40.36:656][150]LogEditorViewport: Clicking Background
+[2016.10.04-05.40.56:590][800]LogEditorViewport: Clicking Background
+[2016.10.04-05.40.57:970][848]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cylinder)
+[2016.10.04-05.40.58:800][869]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (kanban_paper01)
+[2016.10.04-05.41.08:179][180]LogEditorViewport: Clicking Background
+[2016.10.04-05.41.31:576][963]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cylinder)
+[2016.10.04-05.41.42:076][303]LogEditorViewport: Clicking Background
+[2016.10.04-05.44.41:142][846]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestStage" FILE="../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Maps/TestStage_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.10.04-05.44.41:939][846]LogSavePackage: Save=775.354431ms
+[2016.10.04-05.44.41:939][846]LogSavePackage: Moving '../../../../../../Users/祐史/Documents/SandBoxie/Saved/TestStage_Auto502060CED4CD8A9D7579445BE065CF96C.tmp' to '../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Maps/TestStage_Auto5.umap'
+[2016.10.04-05.44.41:977][846]LogSavePackage: Total save time: 828.355290ms
+[2016.10.04-05.44.41:977][846]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Maps/TestStage_Auto5.umap
+[2016.10.04-05.44.41:985][846]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestStage' took 0.941
+[2016.10.04-05.44.41:985][846]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.941
+[2016.10.04-05.44.42:015][846]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Texture/木_縦_] ([1] browsable assets)...
+[2016.10.04-05.44.42:024][846]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Texture/木_縦_.木_縦_]
+[2016.10.04-05.44.42:024][846]OBJ SavePackage: Finished generating thumbnails for package [/Game/Texture/木_縦_]
+[2016.10.04-05.44.42:024][846]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Texture/木_縦_" FILE="../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Texture/木_縦__Auto5.uasset" SILENT=false AUTOSAVING=true
+[2016.10.04-05.44.42:052][846]LogSavePackage: Save=13.019722ms
+[2016.10.04-05.44.42:052][846]LogSavePackage: Moving '../../../../../../Users/祐史/Documents/SandBoxie/Saved/木_縦__Auto59508E15C4CCE43BCAD373BB54D519E31.tmp' to '../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Texture/木_縦__Auto5.uasset'
+[2016.10.04-05.44.42:061][846]LogSavePackage: Total save time: 22.747029ms
+[2016.10.04-05.44.42:061][846]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Texture/木_縦__Auto5.uasset
+[2016.10.04-05.44.42:071][846]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Texture/木_縦__Mat] ([1] browsable assets)...
+[2016.10.04-05.44.42:152][846]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Texture/木_縦__Mat.木_縦__Mat]
+[2016.10.04-05.44.42:152][846]OBJ SavePackage: Finished generating thumbnails for package [/Game/Texture/木_縦__Mat]
+[2016.10.04-05.44.42:152][846]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Texture/木_縦__Mat" FILE="../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Texture/木_縦__Mat_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2016.10.04-05.44.42:206][846]LogSavePackage: Save=47.489231ms
+[2016.10.04-05.44.42:206][846]LogSavePackage: Moving '../../../../../../Users/祐史/Documents/SandBoxie/Saved/木_縦__Mat_Auto548B7063941402BB029BCCE8CC31A2FFC.tmp' to '../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Texture/木_縦__Mat_Auto5.uasset'
+[2016.10.04-05.44.42:214][846]LogSavePackage: Total save time: 55.344082ms
+[2016.10.04-05.44.42:214][846]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Texture/木_縦__Mat_Auto5.uasset
+[2016.10.04-05.44.42:214][846]LogFileHelpers: Auto-saving content packages took 0.208
+[2016.10.04-06.18.11:117][828]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cylinder)
+[2016.10.04-06.20.11:485][875]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cylinder)
+[2016.10.04-06.20.14:159][960]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cylinder)
+[2016.10.04-06.20.19:126][117]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (kanban_kinoita)
+[2016.10.04-06.21.15:318][  6]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestStage" FILE="../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Maps/TestStage_Auto6.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.10.04-06.21.16:035][  6]LogSavePackage: Save=699.353577ms
+[2016.10.04-06.21.16:035][  6]LogSavePackage: Moving '../../../../../../Users/祐史/Documents/SandBoxie/Saved/TestStage_Auto68B05C5E94D30731DC9E486A2FB3B9BF7.tmp' to '../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Maps/TestStage_Auto6.umap'
+[2016.10.04-06.21.16:043][  6]LogSavePackage: Total save time: 718.847897ms
+[2016.10.04-06.21.16:043][  6]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Maps/TestStage_Auto6.umap
+[2016.10.04-06.21.16:050][  6]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestStage' took 0.818
+[2016.10.04-06.21.16:050][  6]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.818
+[2016.10.04-06.36.16:478][976]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (kanban_paper01)
+[2016.10.04-06.36.29:640][396]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cylinder)
+[2016.10.04-06.36.53:304][162]LogEditorViewport: Clicking Background
+[2016.10.04-06.36.54:065][188]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cylinder)
+[2016.10.04-06.37.04:408][456]LogEditorViewport: Clicking Background
+[2016.10.04-06.37.05:267][485]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cylinder)
+[2016.10.04-06.37.29:378][290]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cylinder)
+[2016.10.04-06.37.55:621][385]LogEditorViewport: Clicking Background
+[2016.10.04-06.39.16:208][988]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestStage" FILE="../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Maps/TestStage_Auto7.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.10.04-06.39.17:006][988]LogSavePackage: Save=777.368835ms
+[2016.10.04-06.39.17:006][988]LogSavePackage: Moving '../../../../../../Users/祐史/Documents/SandBoxie/Saved/TestStage_Auto7ED5CE6EB478732B2F014FEA6C07FF61E.tmp' to '../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Maps/TestStage_Auto7.umap'
+[2016.10.04-06.39.17:013][988]LogSavePackage: Total save time: 798.355844ms
+[2016.10.04-06.39.17:013][988]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Maps/TestStage_Auto7.umap
+[2016.10.04-06.39.17:020][988]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestStage' took 0.908
+[2016.10.04-06.39.17:020][988]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.908
+[2016.10.04-06.40.19:534][312]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cylinder)
+[2016.10.04-06.40.22:165][377]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (kanban_paper01)
+[2016.10.04-06.40.23:616][420]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cylinder)
+[2016.10.04-06.40.41:849][977]LogEditorViewport: Clicking Background
+[2016.10.04-06.40.43:285][ 25]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cylinder)
+[2016.10.04-06.47.34:477][552]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestStage" FILE="../../../../../../Users/祐史/Documents/SandBoxie/Content/Maps/TestStage.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.10.04-06.47.35:583][552]LogSavePackage: Save=987.712097ms
+[2016.10.04-06.47.35:583][552]LogSavePackage: Moving '../../../../../../Users/祐史/Documents/SandBoxie/Saved/TestStageD639603D44301A7637F72AB01E2D7DF6.tmp' to '../../../../../../Users/祐史/Documents/SandBoxie/Content/Maps/TestStage.umap'
+[2016.10.04-06.47.35:600][552]LogSavePackage: Total save time: 1021.724228ms
+[2016.10.04-06.47.35:600][552]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/祐史/Documents/SandBoxie/Content/Maps/TestStage.umap
+[2016.10.04-06.47.35:714][552]LogFileHelpers: Saving map 'TestStage' took 1.548
+[2016.10.04-06.47.35:770][552]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Texture/木の板_編集_" FILE="../../../../../../Users/祐史/Documents/SandBoxie/Content/Texture/木の板_編集_.uasset" SILENT=true
+[2016.10.04-06.47.36:205][552]LogSavePackage: Save=428.093872ms
+[2016.10.04-06.47.36:205][552]LogSavePackage: Moving '../../../../../../Users/祐史/Documents/SandBoxie/Saved/木の板_編集_81D5BB5141FE1BF0A7C23E9BDABE72BE.tmp' to '../../../../../../Users/祐史/Documents/SandBoxie/Content/Texture/木の板_編集_.uasset'
+[2016.10.04-06.47.36:231][552]LogSavePackage: Total save time: 455.147199ms
+[2016.10.04-06.47.36:231][552]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/祐史/Documents/SandBoxie/Content/Texture/木の板_編集_.uasset
+[2016.10.04-06.47.36:957][552]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Texture/木_縦_" FILE="../../../../../../Users/祐史/Documents/SandBoxie/Content/Texture/木_縦_.uasset" SILENT=true
+[2016.10.04-06.47.37:100][552]LogSavePackage: Save=135.297836ms
+[2016.10.04-06.47.37:100][552]LogSavePackage: Moving '../../../../../../Users/祐史/Documents/SandBoxie/Saved/木_縦_58BCF1694A6A74ADF33C6CA5A5C3228B.tmp' to '../../../../../../Users/祐史/Documents/SandBoxie/Content/Texture/木_縦_.uasset'
+[2016.10.04-06.47.37:120][552]LogSavePackage: Total save time: 156.358942ms
+[2016.10.04-06.47.37:120][552]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/祐史/Documents/SandBoxie/Content/Texture/木_縦_.uasset
+[2016.10.04-06.47.37:767][552]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Texture/木_縦__Mat" FILE="../../../../../../Users/祐史/Documents/SandBoxie/Content/Texture/木_縦__Mat.uasset" SILENT=true
+[2016.10.04-06.47.37:824][552]LogSavePackage: Save=47.696289ms
+[2016.10.04-06.47.37:824][552]LogSavePackage: Moving '../../../../../../Users/祐史/Documents/SandBoxie/Saved/木_縦__Mat610BB11E4E36D975D74DF4A9D763B815.tmp' to '../../../../../../Users/祐史/Documents/SandBoxie/Content/Texture/木_縦__Mat.uasset'
+[2016.10.04-06.47.37:844][552]LogSavePackage: Total save time: 68.908673ms
+[2016.10.04-06.47.37:844][552]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/祐史/Documents/SandBoxie/Content/Texture/木_縦__Mat.uasset
+[2016.10.04-06.47.38:353][552]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Texture/木の板_編集__Mat" FILE="../../../../../../Users/祐史/Documents/SandBoxie/Content/Texture/木の板_編集__Mat.uasset" SILENT=true
+[2016.10.04-06.47.38:418][552]LogSavePackage: Save=52.139133ms
+[2016.10.04-06.47.38:418][552]LogSavePackage: Moving '../../../../../../Users/祐史/Documents/SandBoxie/Saved/木の板_編集__Mat34EDBFD94E8C00D3DCBC1287A3160FE1.tmp' to '../../../../../../Users/祐史/Documents/SandBoxie/Content/Texture/木の板_編集__Mat.uasset'
+[2016.10.04-06.47.38:433][552]LogSavePackage: Total save time: 67.753337ms
+[2016.10.04-06.47.38:433][552]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/祐史/Documents/SandBoxie/Content/Texture/木の板_編集__Mat.uasset
+[2016.10.04-06.47.38:890][552]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Texture/看板02__紙のみ_編集_" FILE="../../../../../../Users/祐史/Documents/SandBoxie/Content/Texture/看板02__紙のみ_編集_.uasset" SILENT=true
+[2016.10.04-06.47.39:474][552]LogSavePackage: Save=550.845886ms
+[2016.10.04-06.47.39:474][552]LogSavePackage: Moving '../../../../../../Users/祐史/Documents/SandBoxie/Saved/看板02__紙のみ_編集_FEE095E8410F7B9EAF576FBFC76ED2D4.tmp' to '../../../../../../Users/祐史/Documents/SandBoxie/Content/Texture/看板02__紙のみ_編集_.uasset'
+[2016.10.04-06.47.39:487][552]LogSavePackage: Total save time: 564.588107ms
+[2016.10.04-06.47.39:487][552]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/祐史/Documents/SandBoxie/Content/Texture/看板02__紙のみ_編集_.uasset
+[2016.10.04-06.47.40:189][552]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Texture/看板02__紙のみ_編集__Mat" FILE="../../../../../../Users/祐史/Documents/SandBoxie/Content/Texture/看板02__紙のみ_編集__Mat.uasset" SILENT=true
+[2016.10.04-06.47.40:264][552]LogSavePackage: Save=44.009838ms
+[2016.10.04-06.47.40:264][552]LogSavePackage: Moving '../../../../../../Users/祐史/Documents/SandBoxie/Saved/看板02__紙のみ_編集__MatD9207E3F4BD9B96EF83393880B9A958D.tmp' to '../../../../../../Users/祐史/Documents/SandBoxie/Content/Texture/看板02__紙のみ_編集__Mat.uasset'
+[2016.10.04-06.47.40:289][552]LogSavePackage: Total save time: 69.345549ms
+[2016.10.04-06.47.40:289][552]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/祐史/Documents/SandBoxie/Content/Texture/看板02__紙のみ_編集__Mat.uasset
+[2016.10.04-06.48.47:632][275]Cmd: TRANSACTION UNDO
+[2016.10.04-06.48.47:632][275]LogEditorTransaction: Undo アクタ を移動
+[2016.10.04-06.48.48:635][308]Cmd: TRANSACTION UNDO
+[2016.10.04-06.48.48:635][308]LogEditorTransaction: Undo アクタ を移動
+[2016.10.04-06.48.49:826][332]LogEditorViewport: Clicking Background
+[2016.10.04-06.48.54:464][462]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (kanban_kinoita)
+[2016.10.04-06.49.26:061][469]Cmd: TRANSACTION UNDO
+[2016.10.04-06.49.26:062][469]LogEditorTransaction: Undo アクタロケーションを設定
+[2016.10.04-06.49.27:241][510]LogEditorViewport: Clicking Background
+[2016.10.04-06.49.32:509][687]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (kanban_paper01)
+[2016.10.04-06.49.59:955][587]LogEditorViewport: Clicking Background
+[2016.10.04-06.50.01:120][628]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (kanban_kinoita)
+[2016.10.04-06.50.16:566][148]LogEditorViewport: Clicking Background
+[2016.10.04-06.50.17:613][185]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (kanban_kinoita)
+[2016.10.04-06.50.18:516][211]Cmd: TRANSACTION UNDO
+[2016.10.04-06.50.18:516][211]LogEditorTransaction: Undo アクタをクリック
+[2016.10.04-06.50.20:401][298]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (kanban_kinoita)
+[2016.10.04-06.50.32:052][697]LogRenderer: Reallocating scene render targets to support 688x468 (Frame:103029).
+[2016.10.04-06.52.02:861][582]LogEditorViewport: Clicking Background
+[2016.10.04-06.52.20:794][225]LogEditorViewport: Clicking Background
+[2016.10.04-06.52.22:092][268]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (kanban_kinoita)
+[2016.10.04-06.52.24:206][335]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (kanban_paper01)
+[2016.10.04-06.53.38:148][961]Cmd: TRANSACTION UNDO
+[2016.10.04-06.53.38:148][961]LogEditorTransaction: Undo アクタロケーションを設定
+[2016.10.04-06.53.40:413][ 49]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (kanban_kinoita)
+[2016.10.04-06.53.41:107][ 72]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (kanban_kinoita)
+[2016.10.04-06.53.53:466][508]LogEditorViewport: Clicking Background
+[2016.10.04-06.53.56:596][624]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (kanban_paper01)
+[2016.10.04-06.53.58:093][670]Cmd: TRANSACTION UNDO
+[2016.10.04-06.53.58:093][670]LogEditorTransaction: Undo アクタをクリック
+[2016.10.04-06.53.58:703][690]Cmd: TRANSACTION UNDO
+[2016.10.04-06.53.58:703][690]LogEditorTransaction: Undo 背景をクリック
+[2016.10.04-06.53.59:272][704]Cmd: TRANSACTION UNDO
+[2016.10.04-06.53.59:272][704]LogEditorTransaction: Undo アクタロケーションを設定
+[2016.10.04-06.57.22:426][325]LogActorFactory: Actor Factory created Cube
+[2016.10.04-06.57.23:171][343]LogActorFactory: Actor Factory created Cube
+[2016.10.04-06.57.28:240][490]LogActorFactory: Actor Factory created Cube
+[2016.10.04-06.57.30:301][560]LogActorFactory: Actor Factory created Cube
+[2016.10.04-06.58.04:730][576]LogEditorViewport: Clicking Background
+[2016.10.04-06.58.16:802][ 21]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (kanban_paper01)
+[2016.10.04-06.58.18:604][ 76]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (kanban_kinoita)
+[2016.10.04-06.58.44:899][ 77]LogEditorViewport: Clicking Background
+[2016.10.04-06.59.10:532][985]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009B37DAE840
+[2016.10.04-06.59.10:533][985]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009B0D9F1800
+[2016.10.04-06.59.10:549][985]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestStage" FILE="../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Maps/TestStage_Auto8.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.10.04-06.59.11:368][985]LogSavePackage: Save=797.887756ms
+[2016.10.04-06.59.11:368][985]LogSavePackage: Moving '../../../../../../Users/祐史/Documents/SandBoxie/Saved/TestStage_Auto824BB21254CC7B65261A7918D29EB7BE3.tmp' to '../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Maps/TestStage_Auto8.umap'
+[2016.10.04-06.59.11:376][985]LogSavePackage: Total save time: 819.662832ms
+[2016.10.04-06.59.11:376][985]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/祐史/Documents/SandBoxie/Saved/Autosaves/Game/Maps/TestStage_Auto8.umap
+[2016.10.04-06.59.11:412][985]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestStage' took 0.966
+[2016.10.04-06.59.11:412][985]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.966
+[2016.10.04-07.54.26:936][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestStage" FILE="../../../../../../Users/祐史/Documents/SandBoxie/Content/Maps/TestStage.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.10.04-07.54.27:875][ 87]LogSavePackage: Save=840.807861ms
+[2016.10.04-07.54.27:875][ 87]LogSavePackage: Moving '../../../../../../Users/祐史/Documents/SandBoxie/Saved/TestStage867FD26346D4E8A436EBC49944089376.tmp' to '../../../../../../Users/祐史/Documents/SandBoxie/Content/Maps/TestStage.umap'
+[2016.10.04-07.54.27:890][ 87]LogSavePackage: Total save time: 871.162046ms
+[2016.10.04-07.54.27:891][ 87]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/祐史/Documents/SandBoxie/Content/Maps/TestStage.umap
+[2016.10.04-07.54.27:964][ 87]LogFileHelpers: Saving map 'TestStage' took 1.219
+[2016.10.04-07.54.28:328][ 87]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft IME).
+[2016.10.04-07.54.29:145][ 88]Cmd: QUIT_EDITOR
+[2016.10.04-07.54.30:381][ 88]LogExit: Preparing to exit.
+[2016.10.04-07.54.31:701][ 88]LogExit: Editor shut down
+[2016.10.04-07.54.31:701][ 88]LogExit: Transaction tracking system shut down
+[2016.10.04-07.54.32:052][ 88]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009B13BA3BA0
+[2016.10.04-07.54.32:107][ 88]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009B19828D60
+[2016.10.04-07.54.32:109][ 88]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009B1B62D9E0
+[2016.10.04-07.54.36:604][ 88]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009B1B62DBC0
+[2016.10.04-07.54.36:604][ 88]LogExit: Object subsystem successfully closed.
+[2016.10.04-07.54.37:263][ 88]LogD3D11RHI: Shutdown
+[2016.10.04-07.54.37:263][ 88]LogD3D11RHI: CleanupD3DDevice
+[2016.10.04-07.54.37:575][ 88]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.10.04-07.54.39:318][ 88]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (202)
+[2016.10.04-07.54.39:318][ 88]LogModuleManager: Shutting down and abandoning module TextureEditor (201)
+[2016.10.04-07.54.39:347][ 88]LogModuleManager: Shutting down and abandoning module CookingStats (200)
+[2016.10.04-07.54.39:347][ 88]LogModuleManager: Shutting down and abandoning module CrashTracker (199)
+[2016.10.04-07.54.39:347][ 88]LogModuleManager: Shutting down and abandoning module SceneOutliner (198)
+[2016.10.04-07.54.39:347][ 88]LogModuleManager: Shutting down and abandoning module WorldBrowser (197)
+[2016.10.04-07.54.39:371][ 88]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.10.04-07.54.39:371][ 88]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.10.04-07.54.39:384][ 88]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.10.04-07.54.39:400][ 88]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.10.04-07.54.39:400][ 88]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.10.04-07.54.39:429][ 88]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.10.04-07.54.39:445][ 88]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.10.04-07.54.39:458][ 88]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.10.04-07.54.39:496][ 88]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.10.04-07.54.39:496][ 88]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.10.04-07.54.39:496][ 88]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.10.04-07.54.39:496][ 88]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.10.04-07.54.39:496][ 88]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.10.04-07.54.39:496][ 88]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.10.04-07.54.39:496][ 88]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.10.04-07.54.39:496][ 88]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.10.04-07.54.39:496][ 88]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.10.04-07.54.39:496][ 88]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.10.04-07.54.39:540][ 88]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.10.04-07.54.39:562][ 88]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.10.04-07.54.39:575][ 88]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.10.04-07.54.39:575][ 88]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.10.04-07.54.39:629][ 88]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.10.04-07.54.39:629][ 88]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.10.04-07.54.40:178][ 88]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.10.04-07.54.40:178][ 88]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.10.04-07.54.40:178][ 88]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.10.04-07.54.40:178][ 88]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.10.04-07.54.40:190][ 88]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.10.04-07.54.40:190][ 88]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.10.04-07.54.40:216][ 88]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.10.04-07.54.40:225][ 88]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.10.04-07.54.40:238][ 88]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.10.04-07.54.40:249][ 88]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.10.04-07.54.40:254][ 88]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.10.04-07.54.40:287][ 88]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.10.04-07.54.40:301][ 88]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.10.04-07.54.40:308][ 88]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.10.04-07.54.40:308][ 88]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.10.04-07.54.40:316][ 88]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.10.04-07.54.40:316][ 88]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.10.04-07.54.40:322][ 88]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.10.04-07.54.40:322][ 88]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.10.04-07.54.40:354][ 88]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.10.04-07.54.40:354][ 88]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.10.04-07.54.40:362][ 88]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.10.04-07.54.40:375][ 88]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.10.04-07.54.40:393][ 88]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.10.04-07.54.40:400][ 88]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.10.04-07.54.40:400][ 88]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.10.04-07.54.40:446][ 88]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.10.04-07.54.40:458][ 88]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.10.04-07.54.40:473][ 88]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.10.04-07.54.40:499][ 88]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.10.04-07.54.40:499][ 88]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.10.04-07.54.40:500][ 88]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.10.04-07.54.40:500][ 88]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.10.04-07.54.40:565][ 88]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.10.04-07.54.40:591][ 88]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.10.04-07.54.40:653][ 88]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.10.04-07.54.40:666][ 88]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.10.04-07.54.40:666][ 88]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.10.04-07.54.40:680][ 88]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.10.04-07.54.40:695][ 88]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.10.04-07.54.40:695][ 88]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.10.04-07.54.40:707][ 88]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.10.04-07.54.40:707][ 88]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.10.04-07.54.40:718][ 88]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.10.04-07.54.40:718][ 88]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.10.04-07.54.40:718][ 88]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.10.04-07.54.40:718][ 88]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.10.04-07.54.40:744][ 88]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.10.04-07.54.40:753][ 88]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.10.04-07.54.40:758][ 88]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.10.04-07.54.40:909][ 88]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.10.04-07.54.40:924][ 88]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.10.04-07.54.40:924][ 88]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.10.04-07.54.40:924][ 88]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.10.04-07.54.40:924][ 88]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.10.04-07.54.40:924][ 88]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.10.04-07.54.40:924][ 88]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.10.04-07.54.40:924][ 88]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.10.04-07.54.40:997][ 88]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.10.04-07.54.40:997][ 88]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.10.04-07.54.41:013][ 88]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.10.04-07.54.41:013][ 88]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.10.04-07.54.41:055][ 88]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.10.04-07.54.41:070][ 88]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.10.04-07.54.41:070][ 88]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.10.04-07.54.41:070][ 88]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.10.04-07.54.41:094][ 88]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.10.04-07.54.41:103][ 88]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.10.04-07.54.41:114][ 88]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.10.04-07.54.41:127][ 88]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.10.04-07.54.41:127][ 88]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.10.04-07.54.41:139][ 88]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.10.04-07.54.41:155][ 88]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.10.04-07.54.41:160][ 88]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.10.04-07.54.41:160][ 88]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.10.04-07.54.41:160][ 88]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.10.04-07.54.41:176][ 88]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.10.04-07.54.41:176][ 88]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.10.04-07.54.41:176][ 88]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.10.04-07.54.41:194][ 88]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.10.04-07.54.41:202][ 88]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.10.04-07.54.41:202][ 88]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.10.04-07.54.41:216][ 88]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.10.04-07.54.41:224][ 88]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.10.04-07.54.41:347][ 88]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.10.04-07.54.41:349][ 88]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.10.04-07.54.41:386][ 88]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.10.04-07.54.41:487][ 88]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.10.04-07.54.41:487][ 88]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.10.04-07.54.41:499][ 88]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.10.04-07.54.41:528][ 88]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.10.04-07.54.41:528][ 88]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.10.04-07.54.41:534][ 88]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.10.04-07.54.41:534][ 88]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.10.04-07.54.41:534][ 88]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.10.04-07.54.41:534][ 88]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.10.04-07.54.41:563][ 88]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.10.04-07.54.41:564][ 88]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.10.04-07.54.41:580][ 88]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.10.04-07.54.41:580][ 88]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.10.04-07.54.41:580][ 88]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.10.04-07.54.41:614][ 88]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.10.04-07.54.41:641][ 88]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.10.04-07.54.41:679][ 88]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.10.04-07.54.41:710][ 88]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.10.04-07.54.41:710][ 88]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.10.04-07.54.41:717][ 88]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.10.04-07.54.41:718][ 88]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.10.04-07.54.41:718][ 88]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.10.04-07.54.41:718][ 88]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.10.04-07.54.41:718][ 88]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.10.04-07.54.41:718][ 88]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.10.04-07.54.41:718][ 88]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.10.04-07.54.41:718][ 88]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.10.04-07.54.41:744][ 88]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.10.04-07.54.41:776][ 88]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.10.04-07.54.41:824][ 88]LogDerivedDataCache: Shutdown
+[2016.10.04-07.54.41:824][ 88]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.10.04-07.54.41:837][ 88]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.10.04-07.54.41:850][ 88]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.10.04-07.54.41:862][ 88]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.10.04-07.54.41:862][ 88]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.10.04-07.54.41:877][ 88]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.10.04-07.54.41:885][ 88]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.10.04-07.54.41:889][ 88]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.10.04-07.54.41:889][ 88]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.10.04-07.54.41:889][ 88]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.10.04-07.54.41:889][ 88]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.10.04-07.54.41:898][ 88]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.10.04-07.54.41:912][ 88]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.10.04-07.54.41:924][ 88]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.10.04-07.54.41:924][ 88]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.10.04-07.54.41:943][ 88]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.10.04-07.54.41:956][ 88]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.10.04-07.54.41:956][ 88]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.10.04-07.54.41:956][ 88]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.10.04-07.54.41:956][ 88]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.10.04-07.54.41:956][ 88]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.10.04-07.54.41:956][ 88]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.10.04-07.54.41:956][ 88]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.10.04-07.54.41:956][ 88]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.10.04-07.54.41:956][ 88]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.10.04-07.54.41:956][ 88]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.10.04-07.54.41:956][ 88]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.10.04-07.54.41:956][ 88]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.10.04-07.54.41:956][ 88]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.10.04-07.54.41:972][ 88]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.10.04-07.54.41:973][ 88]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.10.04-07.54.41:987][ 88]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.10.04-07.54.41:987][ 88]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.10.04-07.54.41:987][ 88]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.10.04-07.54.41:987][ 88]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.10.04-07.54.41:987][ 88]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.10.04-07.54.41:987][ 88]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.10.04-07.54.42:989][ 88]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.10.04-07.54.43:015][ 88]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.10.04-07.54.43:039][ 88]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.10.04-07.54.43:039][ 88]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.10.04-07.54.43:039][ 88]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.10.04-07.54.43:039][ 88]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.10.04-07.54.43:039][ 88]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.10.04-07.54.43:083][ 88]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.10.04-07.54.43:098][ 88]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.10.04-07.54.43:098][ 88]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.10.04-07.54.43:109][ 88]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.10.04-07.54.43:109][ 88]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.10.04-07.54.43:109][ 88]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.10.04-07.54.43:109][ 88]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.10.04-07.54.43:121][ 88]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.10.04-07.54.43:129][ 88]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.10.04-07.54.43:136][ 88]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.10.04-07.54.43:146][ 88]LogExit: Exiting.
+[2016.10.04-07.54.43:192][ 88]Log file closed, 10/04/16 16:54:43
