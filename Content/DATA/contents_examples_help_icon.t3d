@@ -1,0 +1,21 @@
+Begin Map Name=/Game/Maps/Animation
+   Begin Level NAME=PersistentLevel
+      Begin Actor Class=DocumentationActor Name=PlayableCharacterAnimationBlueprintDocumentation Archetype=DocumentationActor'/Script/Engine.Default__DocumentationActor'
+         Begin Object Class=MaterialBillboardComponent Name="BillboardComponent" Archetype=MaterialBillboardComponent'Default__DocumentationActor:BillboardComponent'
+         End Object
+         Begin Object Class=SceneComponent Name="SceneComp" Archetype=SceneComponent'Default__DocumentationActor:SceneComp'
+         End Object
+         Begin Object Name="BillboardComponent"
+            AttachParent=SceneComp
+         End Object
+         Begin Object Name="SceneComp"
+            RelativeLocation=(X=10100.000000,Y=-1390.000000,Z=52.500084)
+         End Object
+         Billboard=BillboardComponent
+         RootComponent=SceneComp
+         ActorLabel="Playable Character Animation Blueprint Documentation"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map
