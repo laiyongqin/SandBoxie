@@ -2,10 +2,10 @@
 ## ↓
 ***
 * 追加内容
-	- 
+	-
 
 * bugfix
-	- 
+	-
 
 * 参考サイト
 	- [Markdown 記法 サンプル集](http://qiita.com/tbpgr/items/989c6badefff69377da7)
@@ -22,7 +22,7 @@
 ***
 ***
 * 追加内容
-	- ブロック　白_改 キューブをレベル上に置いて, ビルドすると, 
+	- ブロック　白_改 キューブをレベル上に置いて, ビルドすると,
         黒く焼けてしまう事象を, DirectionalLight の詳細タブにある
         Light→シャドウを落とすのチェックを外し解決した。
     - ThirdPersonブループリント→Tutorial02_2DMapの読み込みとunload処理
@@ -58,7 +58,7 @@
         Mesh などに色を適用したい場合は, このフォルダを使うと良いかもしれません。
     - __今回, 追加した機能が多いので, 書き切れてない部分があります。
         競合が発生した場合は, Unreal Engine の DIFF の機能を試して見て下さい。__
-        
+
 
 * bugfix
 	- _Tutorial03_3DMap の特定箇所で, カメラ切り替えすると, Player が, アクターにハマってしまう
@@ -116,3 +116,47 @@
     - [日の傾き解説サイト](https://www.youtube.com/watch?v=xt_TIYthRUE)
 
 #### 記述者 : 牛山 拓成, 記述日 : 2016年10月04日(火) 午後4時50分
+***
+* 追加内容
+	- ThirdPersonブループリント内に GameOverTime 変数を追加しました。
+		この変数は, ゲームのゲームオーバータイムの時間を設定する変数です。
+		ここでは, 5 分に設定しました。
+	- Git_Proen\Content\DATA\contents_examples_help_icon.t3d
+		を追加しました。くるくる回る HELP ICON です。
+		UE4 の機能別サンプルから, エクスポートした後, 当該プロジェクト
+		で, インポートしました。ライセンスは, UE4 で作ったゲームに限られています。
+	- ThirdPersonブループリント内に, Eキーでの, 看板へのズーム機能
+		非ズーム機能, 表示＆非表示処理を追加しました。
+	- ThirdPersonブループリント内のキャラクター＆カメラの配置位置のメモです。
+		SpringArmコンポーネント内内包
+	- ForwardCamera {
+			location : 213, 0, 155,
+			rotation : 0, -30, 180,
+			zoom : 1, 1, 1
+		}
+	- BackCamera {
+			location : -203, 0, 155,
+			rotation : 0, -30, 0,
+			zoom : 1, 1, 1
+		}
+	- 2DCamera {
+			location : 1, 1000, -45,
+			rotation : -0, -0, -90,
+			zoom : 1, 1, 1
+		}
+	- Character {
+			location : 0, 0, -100,
+			rotation : 0, 0, -90,
+			zoom : 1, 1, 1
+		}
+
+* bugfix
+	- 特になし。
+
+* 参考サイト
+	- 特になし。
+
+* 次回, 実装したい機能
+	- カメラが壁にめり込まない処理。
+
+#### 記述者 : 牛山 拓成, 記述日 : 2016年11月01日(火) 午後4時30分
