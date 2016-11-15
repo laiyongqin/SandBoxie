@@ -160,3 +160,24 @@
 	- カメラが壁にめり込まない処理。
 
 #### 記述者 : 牛山 拓成, 記述日 : 2016年11月01日(火) 午後4時30分
+***
+* 追加内容
+	- Tutorial03_3DMap の奥から縦 2 列に, キャラクターのカメラの
+		深度によって透明度が変わる Material を適用しました。
+	- Material/Transparency_Material の Material 処理を一部変更しました。
+	- 透明マテリアルの基本色を白色に変更しました。
+	- ThirdPerson Character の前カメラと後ろカメラをキャラクターに近づけ
+		ました。( 透明処理で見づらかったため )
+	- ヤスさんが, 作成した, ブタと羊をインポートし, TestStage 上に置きまし
+		た。( StaticMesh'/Game/Character/羊.羊',
+		StaticMesh'/Game/Character/ぶたさん.ぶたさん' )
+
+* bugfix
+	- 透過処理のマテリアルを適用した actor の色が適用されない！？←
+		改善する必要がある。
+
+* 参考サイト
+	- [Unreal Engine | マテリアル エディタ - 透過処理の操作ガイド](https://docs.unrealengine.com/latest/JPN/Engine/Rendering/Materials/HowTo/Transparency/index.html)
+	- [UE4でカメラがキャラクターに近付き過ぎたら半透明にする - ほげたつブログ](http://hogetatu.hatenablog.com/entry/2015/10/15/225613)
+
+#### 記述者 : 牛山 拓成, 記述日 : 2016年11月15日(火) 午後4時28分
