@@ -181,3 +181,25 @@
 	- [UE4でカメラがキャラクターに近付き過ぎたら半透明にする - ほげたつブログ](http://hogetatu.hatenablog.com/entry/2015/10/15/225613)
 
 #### 記述者 : 牛山 拓成, 記述日 : 2016年11月15日(火) 午後4時28分
+***
+* 追加内容
+	- Content\DATA\Backup\制限時間.png 制限時間スクリプトのバックアップ
+	- SandBoxie.uproject : 「"Enabled": true」→「"Enabled": false」に
+		変更を行いました。(LowEntryExtendedStandardLibraryが無効になった
+		ので再度有効にする際には, Enabled": true にして下さい。)
+	- Widget ポーズ画面の表示＆非表示処理から行っていく。
+		(2016年12月06日(火	)12時49分完了)
+	- ポーズ画面にしたときに、Playしていた画面を背景にしました。
+		__画面を薄暗くする処理を実装していく。__
+	- ThirdPersonブループリント内のゲームオーバー画面処理を
+		ポーズ画面処理に変更しました。
+	- ThirdPersonブループリント内, スタート画面時の
+		キー処理の処理を大幅に変更しました。
+
+* bug
+	- __3D画面から2D画面に戻るときにステージが消えるバグがあります。__
+
+* 参考サイト
+	- [Markdown 記法 サンプル集](http://qiita.com/tbpgr/items/989c6badefff69377da7)
+
+#### 記述者 : 氏名, 記述日 : 年月日 日時
